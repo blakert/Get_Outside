@@ -1,0 +1,31 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="/public/styles/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">
+        Get Outside!
+    </div>
+    <div class="nav-links">
+        <a href="#"> Eats </a>
+        <a> Adventures </a>
+        <a> Events </a>
+    </div>
+    <div class="location">
+        <p> Where are you? </p>
+            <form action="/search" method="GET">
+                <p> City:
+                    <%= parsedLocData.city %>
+                </p>
+                <input type="text" name="city">
+                <input type="submit" value="submit">
+            </form>
+    </div>
+    <script src="/public/js/eats.js">
+        
+    </script>
+</body>

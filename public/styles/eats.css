@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-image: linear-gradient(45deg, #3C5C92, #44669F);
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.title {
+    font-size: 30pt;
+}
+.results{
+    
+}
+.restaurant {
+    display:inline;
+    float: left;
+    border-style: solid;
+    border-color: white;
+}
+.maps { height: 150px;width:250px; }
